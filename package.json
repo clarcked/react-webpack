@@ -1,0 +1,29 @@
+{
+  "name": "react-webpack-project",
+  "version": "1.0.0",
+  "description": "My react project",
+  "private": true,
+  "scripts": {
+    "babel": "npx babel --watch src/ --out-dir dist/ --presets react-app/prod",
+    "build": "webpack --mode=production --node-env=production",
+    "watch": "webpack  --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "clarcked",
+  "license": "ISC",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-react-app": "^3.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "jsxobj": "^1.1.0",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  }
+}
